@@ -1,0 +1,86 @@
+	body {
+	font-family:serif;
+	color: #333
+	font-size: 1.2rem;
+	line-height: 1.4em;
+	}
+
+	header {
+	background: white;
+	background-color: #f2f2f2;
+	padding: 2rem 0;
+	margin:0;
+	}
+
+
+	.logo-nav-container a img {
+	width: 320px;
+	height: 130px;
+	border-radius: 15px;
+	margin-left: 1px;
+	display: block;
+	}
+
+	nav {
+	position: fixed;
+	float: left;
+	text-align: center;
+	width: 250px;
+	height: 900px;
+	}
+
+	nav ul {
+	margin:0;
+	padding: 0;
+	list-style: none;
+	}
+
+
+	nav ul li a {
+	margin: 5px 5px 5px 5px;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	border-radius: 5px;
+	text-decoration: none;
+	display: flex;
+	font-size: 30px;
+	}
+
+  nav ul li a:hover {
+  background: #4a4a4a;
+  }
+
+  footer {
+	clear: both;
+	position:relative;
+  padding: 1rem;
+  background-color: #f2f2f2;
+  text-align: center;
+	margin-top: 0;
+  }
+
+  footer p {
+  text-align: right;
+  margin: 5px 5px 5px 5px;
+ 	}
+
+
+ 	main {margin-left: 500px;
+ 	}
+
+	.guitarra {
+
+	display: block;
+	}
+
+	.guitarra img{
+	width: 10%;
+	}
+
+	.bateria {
+	display: block;
+	}
+
+	.bateria img{
+		width: 40%;
+	}
