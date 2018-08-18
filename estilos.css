@@ -72,22 +72,7 @@
  	main {margin-left: 500px;
  	}
 
-	.guitarra {
 
-	display: block;
-	}
-
-	.guitarra img{
-	width: 10%;
-	}
-
-	.bateria {
-	display: block;
-	}
-
-	.bateria img{
-		width: 40%;
-	}
 
 	.main-container {
  		min-height: 100vh; /* will cover the 100% of viewport */
@@ -96,3 +81,44 @@
 		 position: relative;
 		 padding-bottom: 100px; /* height of your footer */
 }
+
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.products ul {
+	margin: 0px;
+
+}
+
+.products ul li {
+	width: 20%;
+	list-style: none;
+	float: left;
+	height: 300px;
+	margin: 40px 30px 0px 40px;
+}
+
+
+.bateria img{
+		
+		max-width: 100%;
+		max-height: 100%;
+	}
+.bajo img{
+		
+		max-width: 100%;
+		max-height: 100%;
+	}
+.piano img{
+		
+		max-width: 100%;
+		max-height: 100%;
+	}
+.guitarra img{
+		
+		max-width: 100%;
+		max-height: 100%;
+	}
